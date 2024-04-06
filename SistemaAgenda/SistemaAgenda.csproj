@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AccesoDatos\AccesoBD.cs" />
+    <Compile Include="AccesoDatos\CitaDAO.cs" />
     <Compile Include="AccesoDatos\ContactoDAO.cs" />
     <Compile Include="AccesoDatos\UsuarioDAO.cs" />
     <Compile Include="FormListaContactos.cs">
@@ -79,6 +80,13 @@
     <Compile Include="FormNuevoUsuario.Designer.cs">
       <DependentUpon>FormNuevoUsuario.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormRegistrarCita.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormRegistrarCita.Designer.cs">
+      <DependentUpon>FormRegistrarCita.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modelo\Cita.cs" />
     <Compile Include="Modelo\Contacto.cs" />
     <Compile Include="Modelo\Usuario.cs" />
     <Compile Include="Program.cs" />
@@ -97,6 +105,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormNuevoUsuario.resx">
       <DependentUpon>FormNuevoUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormRegistrarCita.resx">
+      <DependentUpon>FormRegistrarCita.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

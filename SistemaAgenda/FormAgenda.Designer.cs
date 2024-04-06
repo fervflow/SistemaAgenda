@@ -87,6 +87,7 @@
             this.btCrearCita.TabIndex = 6;
             this.btCrearCita.Text = "REGISTRAR UNA CITA";
             this.btCrearCita.UseVisualStyleBackColor = true;
+            this.btCrearCita.Click += new System.EventHandler(this.btCrearCita_Click);
             // 
             // btListarCitas
             // 

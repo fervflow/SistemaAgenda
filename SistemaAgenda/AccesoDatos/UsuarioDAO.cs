@@ -86,7 +86,6 @@ namespace SistemaAgenda.AccesoDatos
                 MessageBox.Show("Error al insertar en la BD:"+ex.Message);
                 return null;
             }
-}
-
+        }
     }
 }

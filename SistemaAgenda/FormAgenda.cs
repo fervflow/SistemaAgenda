@@ -37,5 +37,11 @@ namespace SistemaAgenda
             FormListaContactos frm = new FormListaContactos(usuario.id_usuario);
             frm.ShowDialog();
         }
+
+        private void btCrearCita_Click(object sender, EventArgs e)
+        {
+            FormRegistrarCita frm = new FormRegistrarCita(usuario.id_usuario);
+            frm.ShowDialog();
+        }
     }
 }

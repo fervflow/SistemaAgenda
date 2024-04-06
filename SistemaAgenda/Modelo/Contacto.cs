@@ -23,5 +23,10 @@ namespace SistemaAgenda.Modelo
             this.detalle = "";
             this.usuario_contacto = 0;
         }
+        public override string ToString()
+        {
+            // Customize the string representation to include more information
+            return $"ID: {id_contacto}, Nombre Completo: {nombre_completo}, Género: {genero_contacto}, Teléfono: {telefono}, Detalle: {detalle}";
+        }
     }
 }
