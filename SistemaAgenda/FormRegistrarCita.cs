@@ -68,7 +68,7 @@ namespace SistemaAgenda
                     int temp_id_contacto = cbxContactos.SelectedIndex;
                     Contacto c = new Contacto();
                     c = contactos.ElementAt(temp_id_contacto);
-                    MessageBox.Show(c.ToString());
+                    
                     string fechaHora = dtpFechaHora.Value.ToString("yyyy-MM-dd") + " " + horaCita;
                     string motivo = tbMotivo.Text;
                     int result = citaDAO.registrarCita(current_user_id, c, fechaHora, motivo);

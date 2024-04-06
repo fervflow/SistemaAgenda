@@ -43,5 +43,11 @@ namespace SistemaAgenda
             FormRegistrarCita frm = new FormRegistrarCita(usuario.id_usuario);
             frm.ShowDialog();
         }
+
+        private void btListarCitas_Click(object sender, EventArgs e)
+        {
+            FormListarCitas frm = new FormListarCitas(usuario.id_usuario);
+            frm.ShowDialog();
+        }
     }
 }

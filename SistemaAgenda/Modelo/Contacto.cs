@@ -28,5 +28,10 @@ namespace SistemaAgenda.Modelo
             // Customize the string representation to include more information
             return $"ID: {id_contacto}, Nombre Completo: {nombre_completo}, Género: {genero_contacto}, Teléfono: {telefono}, Detalle: {detalle}";
         }
+
+        public string getContactoCita()
+        {
+            return $"{telefono}, {nombre_completo}";
+        }
     }
 }

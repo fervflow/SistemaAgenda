@@ -41,6 +41,8 @@
             // 
             this.dgvLista.AllowUserToAddRows = false;
             this.dgvLista.AllowUserToDeleteRows = false;
+            this.dgvLista.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.dgvLista.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvLista.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.id_contacto,
@@ -49,9 +51,11 @@
             this.genero_contacto,
             this.detalle});
             this.dgvLista.Location = new System.Drawing.Point(12, 12);
+            this.dgvLista.MaximumSize = new System.Drawing.Size(700, 0);
+            this.dgvLista.MinimumSize = new System.Drawing.Size(510, 200);
             this.dgvLista.Name = "dgvLista";
             this.dgvLista.ReadOnly = true;
-            this.dgvLista.Size = new System.Drawing.Size(544, 385);
+            this.dgvLista.Size = new System.Drawing.Size(510, 337);
             this.dgvLista.TabIndex = 0;
             // 
             // id_contacto
@@ -97,9 +101,12 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(570, 417);
+            this.ClientSize = new System.Drawing.Size(534, 361);
             this.Controls.Add(this.dgvLista);
+            this.MaximumSize = new System.Drawing.Size(700, 400);
+            this.MinimumSize = new System.Drawing.Size(550, 400);
             this.Name = "FormListaContactos";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Lista de Contactos";
             ((System.ComponentModel.ISupportInitialize)(this.dgvLista)).EndInit();
             this.ResumeLayout(false);

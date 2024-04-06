@@ -157,7 +157,9 @@
             this.Controls.Add(this.lbTelefono);
             this.Controls.Add(this.tbNombreCompleto);
             this.Controls.Add(this.lbNombreCompleto);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "FormCrearContacto";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Crear Contacto";
             this.Load += new System.EventHandler(this.FormCrearContacto_Load);
             this.gbGenero.ResumeLayout(false);

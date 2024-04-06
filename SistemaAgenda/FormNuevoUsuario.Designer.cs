@@ -186,6 +186,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.tbApellido);
             this.Controls.Add(this.tbNombre);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "FormNuevoUsuario";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Nuevo Usuario";

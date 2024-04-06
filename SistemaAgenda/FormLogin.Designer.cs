@@ -108,6 +108,7 @@
             this.Controls.Add(this.btnIngresar);
             this.Controls.Add(this.mtbPin);
             this.Controls.Add(this.tbUsuario);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "FormLogin";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Agenda";

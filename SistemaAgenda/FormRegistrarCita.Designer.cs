@@ -150,7 +150,9 @@
             this.Controls.Add(this.dtpFechaHora);
             this.Controls.Add(this.lbContacto);
             this.Controls.Add(this.lbFechaHora);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "FormRegistrarCita";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Registrar una cita";
             this.Load += new System.EventHandler(this.FormRegistrarCita_Load);
             this.ResumeLayout(false);

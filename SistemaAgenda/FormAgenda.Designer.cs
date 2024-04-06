@@ -98,6 +98,7 @@
             this.btListarCitas.TabIndex = 7;
             this.btListarCitas.Text = "VER CITAS REGISTRADAS";
             this.btListarCitas.UseVisualStyleBackColor = true;
+            this.btListarCitas.Click += new System.EventHandler(this.btListarCitas_Click);
             // 
             // FormAgenda
             // 
@@ -111,7 +112,8 @@
             this.Controls.Add(this.btListarContactos);
             this.Controls.Add(this.btCrearContacto);
             this.Name = "FormAgenda";
-            this.Text = "FormAgenda";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Agenda";
             this.Load += new System.EventHandler(this.FormAgenda_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
